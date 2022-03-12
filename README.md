@@ -1,3 +1,14 @@
+Simple counter application with React
+
+This is a simple counter application created with React. 
+It can be used to count the number of visitors or cars with limited space.
+
+It consists of the value of the counted number and 2 buttons (increase / decrease).
+When the upper limit is approached, the background color changes to alert users.
+
+The goal of this project is to better understand React, so there is no additional tool or framework.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
