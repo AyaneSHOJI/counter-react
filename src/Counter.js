@@ -29,14 +29,18 @@ function Counter(){
     }
     
     return (
-        <div className={bgColor}>
-            <div className="container">
-                <div className="row">
-                    <p className="">{countValue} voitures entrées</p>
+        <div className="container">
+            <div className={`counterContainer  ${bgColor}`}>
+                <div className="countValueDiv">
+                    <h1 className="countValue">{countValue}</h1>
                 </div>
-                <div className="btn-groupe row">
-                    <Button className="btn btn-primary my-3" onMouseDown={decreaseCount}>-</Button>             
-                    <Button className="btn btn-primary my-3" onClick={increaseCount}>+</Button>
+                <div className="btn-group">
+                    <div>
+                        <Button className="btn btn-primary my-3" onMouseDown={decreaseCount}>-</Button>       
+                    </div>
+                    <div>
+                        <Button className="btn btn-primary my-3" onClick={increaseCount}>+</Button>
+                    </div>      
                 </div>
             </div>
         </div>

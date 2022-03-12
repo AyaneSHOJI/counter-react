@@ -1,6 +1,32 @@
+.counterContainer{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 .bg-color-green{
-    background-color: green;
+    background-color: rgb(47, 128, 47);
 }
 .bg-color-red{
-    background-color: red;
+    background-color: rgb(250, 100, 100);
+}
+.countValueDiv{
+    margin:20% auto;
+}
+.countValue{
+    text-align: center;
+    color: white;
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 3rem;
+    padding: 0.5rem 2rem;
 }
