@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './Counter.css';
-import Button from 'react-bootstrap/Button';
 
 function Counter(){
     const [countValue, setCountValue] = useState(0);
@@ -34,13 +33,9 @@ function Counter(){
                 <div className="countValueDiv">
                     <h1 className="countValue">{countValue}</h1>
                 </div>
-                <div className="btn-group">
-                    <div>
-                        <Button className="btn btn-primary my-3" onMouseDown={decreaseCount}>-</Button>       
-                    </div>
-                    <div>
-                        <Button className="btn btn-primary my-3" onClick={increaseCount}>+</Button>
-                    </div>      
+                <div className="btn-group">                   
+                    <button className="btn btn-primary my-3" onClick={decreaseCount}>-</button>       
+                    <button className="btn btn-primary my-3" onClick={increaseCount}>+</button>     
                 </div>
             </div>
         </div>
