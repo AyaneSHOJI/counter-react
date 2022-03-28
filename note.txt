@@ -1,0 +1,11 @@
+
+- Config 
+in Setting.json, add 
+"emmet.includeLanguages": {"javascript" : "javascriptreact" },
+"emmet.triggerExpansionOnTab": 
+
+npm i -g react-router-dom sass (install for global use)
+npm i react-router-dom sass (install for current project)
+
+-shortcut
+rsc : create a stateless React component
