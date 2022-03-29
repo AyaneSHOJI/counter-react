@@ -1,5 +1,13 @@
+- Congi Github pages (with existing repo)
+https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+1. npm install gh-pages --save-dev
+2. add properties to package.json
+ 2.1(on top)   "homepage": "http://AyaneSHOJI.github.io/counter-react" ("http://{username}.github.io/{repo-name}")
+ 2.2(in scripts)  "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+3. npm run deploy
 
-- Config 
+- Config for emmet
 in Setting.json, add 
 "emmet.includeLanguages": {"javascript" : "javascriptreact" },
 "emmet.triggerExpansionOnTab": 
